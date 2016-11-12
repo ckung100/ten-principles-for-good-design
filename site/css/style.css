@@ -4,7 +4,7 @@
 
 .header{
 	display:block;
-	font-family: 'helvetica';
+	font-family: Helvetica;
 	font-size: 50px;
 	margin: 60px 250px 5px;
 	color: darkgrey;
@@ -34,6 +34,7 @@ li{
 	font-size:14px;
 	text-align:left;
 	color:grey;
+   line-height: 1.2;
 }
 
 .list {
@@ -45,13 +46,13 @@ li{
     margin-bottom: 20px;
     list-style: none !important;
 }
- 
+
 .list ol li {
     position: relative;
     margin-top: 0em;
     margin-bottom: 35px;
 }
- 
+
 .list ol li .number_divider {
     position: absolute;
     left: -70px;
